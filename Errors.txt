@@ -1,3 +1,5 @@
+en een gewijzige regel hier
+
 MOL - WSG2772 - 02-02-2017 09:01:10 - EXE.VERSIE GEINSTALLEERD : 9.0.7
 WSG2772 - 06-02-2017 10:48:09 - VERWEESDE RECORDS 2 : Delete from artcomponent where kode in (select artcomponent.kode from (artcomponent left join art on artcomponent.kode = art.kode) where isnull(art.kode) ) ====>  3 Records - Fout : 0 --> 
 MOL - WSG2772 - 09-02-2017 11:48:19 - EXE.VERSIE GEINSTALLEERD : 9.0.7
